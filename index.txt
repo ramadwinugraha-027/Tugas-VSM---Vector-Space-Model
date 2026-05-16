@@ -1,0 +1,239 @@
+abilities: 1,0.699
+accessibility: 1,0.699
+accuracy: 2,0.699
+accurately: 3,0.699
+activities: 2,0.699
+administrative: 1,0.699
+adopting: 5,0.699
+advanced: 3,0.699
+ai: 1,0.0 2,0.0 3,0.0 4,0.0 5,0.0
+ai-based: 1,0.3979 2,0.3979
+ai-generated: 3,0.699
+ai-powered: 1,0.699
+allows: 3,0.699
+also: 1,0.0969 2,0.0969 3,0.0969 5,0.0969
+although: 2,0.3979 5,0.3979
+amounts: 2,0.699
+analysis: 5,0.699
+analysts: 5,0.699
+analyze: 1,0.3979 2,0.3979
+answer: 3,0.699
+applications: 4,0.699
+argue: 2,0.3979 4,0.3979
+around: 1,0.699
+artificial: 1,0.0 2,0.0 3,0.0 4,0.0 5,0.0
+assist: 2,0.3979 3,0.3979
+automated: 1,0.699
+automation: 5,0.9094
+balancing: 4,0.699
+based: 1,0.3979 5,0.3979
+become: 2,0.3979 4,0.3979
+becoming: 1,0.3979 3,0.3979
+believe: 1,0.2218 2,0.2218 5,0.2886
+better: 1,0.3979 5,0.3979
+business: 4,0.3979 5,0.5177
+businesses: 5,0.699
+care: 2,0.699
+career: 5,0.699
+centers: 2,0.699
+changing: 5,0.699
+chatbot: 3,0.699
+chatbots: 3,1.1875
+communication: 3,0.3979 4,0.3979
+companies: 1,0.0969 3,0.1261 4,0.1261 5,0.1261
+competitive: 5,0.699
+complex: 3,0.699
+concerned: 1,0.3979 4,0.3979
+concerns: 1,0.699
+content: 3,0.699
+continue: 1,0.0969 3,0.0969 4,0.0969 5,0.0969
+conversations: 3,0.699
+could: 4,0.699
+countries: 4,0.9094
+create: 5,0.699
+customer: 3,0.5177 5,0.3979
+cybersecurity: 4,0.699
+data: 2,0.2218 4,0.2218 5,0.2218
+data-driven: 5,0.699
+datasets: 3,0.699
+decisions: 2,0.3979 5,0.3979
+dependence: 1,0.699
+despite: 1,0.699
+detect: 2,0.699
+developing: 1,0.3979 2,0.3979
+development: 1,0.2218 4,0.2218 5,0.2218
+diagnoses: 2,0.699
+digital: 5,0.699
+direct: 1,0.699
+discussing: 4,0.699
+discussions: 4,0.699
+diseases: 2,0.699
+doctors: 2,0.9094
+earlier: 2,0.699
+education: 1,0.9094
+educational: 1,0.9094
+educators: 1,0.699
+effectively: 1,0.699
+efficiency: 1,0.3979 5,0.3979
+efficiently: 2,0.699
+ensure: 4,0.699
+errors: 2,0.699
+ethical: 4,0.699
+excessive: 1,0.699
+experiences: 1,0.3979 3,0.3979
+experts: 1,0.0 2,0.0 3,0.0 4,0.0 5,0.0
+faster: 5,0.699
+finance: 5,0.699
+focus: 1,0.699
+fully: 2,0.699
+future: 2,0.699
+governments: 4,0.699
+grading: 1,0.699
+growth: 4,0.699
+health: 2,0.699
+healthcare: 2,1.0325
+heavily: 5,0.699
+help: 1,0.5177 5,0.3979
+hospitals: 2,0.9094
+however: 1,0.3979 3,0.3979
+human: 3,0.699
+images: 2,0.699
+implemented: 2,0.699
+important: 2,0.3979 4,0.3979
+improve: 1,0.1261 2,0.0969 3,0.1261 5,0.0969
+improving: 2,0.699
+inaccurate: 3,0.699
+increase: 2,0.3979 4,0.3979
+increasingly: 1,0.699
+individual: 1,0.699
+industries: 5,0.699
+industry: 2,0.3979 4,0.3979
+information: 3,0.5177 5,0.3979
+innovation: 4,0.9094
+insights: 5,0.699
+institutions: 1,0.699
+integrated: 4,0.699
+intelligence: 1,0.0 2,0.0 3,0.0 4,0.0 5,0.0
+interaction: 1,0.699
+invest: 1,0.699
+investing: 5,0.699
+issues: 4,0.699
+jobs: 5,0.699
+language: 3,0.9094
+large: 2,0.3979 3,0.3979
+laws: 4,0.699
+learning: 1,1.1198
+lessons: 1,0.699
+limit: 4,0.699
+make: 5,0.699
+making: 2,0.699
+manufacturing: 5,0.699
+many: 1,0.0 2,0.0 3,0.0 4,0.0 5,0.0
+marketing: 5,0.699
+markets: 5,0.699
+may: 1,0.3979 5,0.3979
+medical: 2,1.1875
+misinformation: 4,0.699
+misleading: 3,0.699
+models: 3,0.699
+modern: 3,0.699
+monitor: 2,0.699
+natural: 3,0.699
+naturally: 3,0.699
+new: 4,0.3979 5,0.3979
+online: 1,0.3979 3,0.3979
+operational: 5,0.699
+opportunities: 5,0.699
+organizations: 5,0.699
+patient: 2,0.9094
+patients: 2,0.699
+perform: 3,0.699
+performance: 1,0.699
+personalized: 1,0.699
+platforms: 3,0.699
+policymakers: 4,0.699
+popular: 1,0.699
+potential: 2,0.699
+powered: 3,0.699
+predict: 2,0.699
+privacy: 4,0.699
+process: 2,0.3979 5,0.3979
+processing: 3,0.699
+produce: 3,0.699
+productivity: 5,0.699
+professionals: 2,0.699
+proper: 4,0.699
+proposed: 4,0.699
+provide: 1,0.5177 3,0.3979
+public: 4,0.9094
+quality: 2,0.699
+questions: 3,0.699
+rapidly: 5,0.699
+recent: 2,0.699
+recommendations: 1,0.3979 5,0.3979
+reduce: 1,0.2886 2,0.2218 5,0.2218
+regulation: 4,0.699
+regulations: 4,0.9094
+related: 4,0.3979 5,0.3979
+remain: 5,0.699
+replace: 2,0.699
+require: 4,0.699
+research: 2,0.5177 5,0.3979
+researchers: 2,0.699
+respond: 3,0.699
+responses: 3,0.699
+responsibly: 4,0.699
+result: 3,0.699
+retail: 5,0.699
+risks: 2,0.699
+safely: 4,0.699
+safety: 4,0.699
+schools: 1,0.699
+searching: 3,0.699
+sector: 1,0.699
+service: 3,0.699
+services: 2,0.2886 3,0.2218 4,0.2218
+several: 2,0.2218 4,0.2218 5,0.2218
+slow: 4,0.699
+sometimes: 3,0.699
+starting: 1,0.699
+still: 3,0.699
+strategies: 5,0.699
+strict: 4,0.699
+student: 1,0.9094
+students: 1,1.0325
+support: 1,0.2218 2,0.2218 3,0.2218
+supporting: 2,0.699
+systems: 1,0.0 2,0.0 3,0.0 4,0.0 5,0.0
+tasks: 3,0.699
+teachers: 1,0.9094
+technical: 3,0.699
+technologies: 2,0.2218 4,0.2886 5,0.2218
+technology: 1,0.1261 3,0.1261 4,0.1431 5,0.0969
+time: 4,0.699
+tool: 2,0.699
+traditional: 5,0.699
+training: 3,0.699
+transform: 5,0.699
+transformation: 5,0.699
+transparency: 4,0.699
+transportation: 5,0.699
+treatment: 2,0.699
+tutors: 1,0.699
+understand: 1,0.3979 3,0.3979
+universities: 1,0.699
+use: 1,0.0969 3,0.0969 4,0.1261 5,0.0969
+used: 2,0.2886 3,0.2218 4,0.2218
+user: 3,0.699
+users: 3,0.699
+using: 3,0.699
+various: 3,0.699
+verified: 3,0.699
+virtual: 1,0.699
+warn: 3,0.699
+widely: 2,0.3979 3,0.3979
+work: 1,0.699
+world: 1,0.699
+worry: 4,0.699
+writing: 3,0.699
+years: 2,0.699
