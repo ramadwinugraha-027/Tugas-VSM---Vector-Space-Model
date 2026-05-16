@@ -1,63 +1,97 @@
 # Tugas VSM - Vector Space Model
 
-Tugas Mata kuliah Aljabar Linear 
-sistem pencarian dokumen sederhana pake python.
+Tugas Mata Kuliah Aljabar Linear  
+Sistem pencarian dokumen sederhana menggunakan Python.
 
+---
 
 # Cara Menjalankan
 
-# 1. Install Terlebih dahulu
+## 1. Install Terlebih Dahulu
 
-
+```bash
 pip install -r requirements.txt
+```
 
+## 2. Menjalankan Program
 
-# 2. Menjalankan Program
-
-
+```bash
 python vsm.py base.txt query1.txt
+```
 
+Ganti `query1.txt` dengan query yang mau dicoba.  
+Tersedia 3 file query:
 
-ganti `query1.txt` dengan query yang mau dicoba, ada 3 file query (query1.txt, query2.txt, query3.txt).
+- `query1.txt`
+- `query2.txt`
+- `query3.txt`
+
+---
 
 # Isi Folder
 
+```text
 vsm/
 ├── vsm.py            <- program utama
-├── requirements.txt  <- library yang dibutuhin (nltk)
+├── requirements.txt  <- library yang dibutuhkan (nltk)
 ├── base.txt          <- daftar nama file dokumen
 ├── query1.txt        <- query 1
 ├── query2.txt        <- query 2
 ├── query3.txt        <- query 3
-├── doc1.txt          <- dokumen 1 
-├── doc2.txt          <- dokumen 2 
-├── doc3.txt          <- dokumen 3 
-├── doc4.txt          <- dokumen 4 
-├── doc5.txt          <- dokumen 5 
+├── doc1.txt          <- dokumen 1
+├── doc2.txt          <- dokumen 2
+├── doc3.txt          <- dokumen 3
+├── doc4.txt          <- dokumen 4
+├── doc5.txt          <- dokumen 5
 ├── index.txt         <- output: inverted index
 ├── weights.txt       <- output: bobot tiap term
 └── response.txt      <- output: hasil ranking
+```
+
+---
 
 # Cara Kerja
 
-program ini mencari dokumen yang paling mirip dengan query yang diberikan. caranya:
+Program ini mencari dokumen yang paling mirip dengan query yang diberikan.
 
-*1. Preprocessing*
-teks dipecah jadi kata-kata, terus kata yang dinggap kurang penting (seperti "the", "is", "and") dihapus.
-contoh: "artificial intelligence systems technology" → ['artificial', 'intelligence', 'systems', 'technology']
+## 1. Preprocessing
 
-*2. TF-IDF*
-setiap kata dikasih bobot. kata yang sering muncul di satu dokumen tapi jarang di dokumen lain, bobotnya lebih tinggi.
-- TF = seberapa sering kata muncul di dokumen itu
-- IDF = seberapa langka kata itu di semua dokumen
-- TF-IDF = TF × IDF
+Teks dipecah menjadi kata-kata, lalu kata yang dianggap kurang penting (seperti `"the"`, `"is"`, `"and"`) dihapus.
 
-*3. Cosine Similarity*
-dokumen dan query diubah jadi vektor, lalu dihitung kemiripannya. nilai 1.0 = sama persis, nilai 0 = tidak ada kemiripan sama sekali.
+Contoh:
+
+```python
+"artificial intelligence systems technology"
+→ ['artificial', 'intelligence', 'systems', 'technology']
+```
+
+---
+
+## 2. TF-IDF
+
+Setiap kata diberikan bobot.  
+Kata yang sering muncul di satu dokumen tetapi jarang muncul di dokumen lain akan memiliki bobot lebih tinggi.
+
+- **TF** = seberapa sering kata muncul di dokumen tersebut
+- **IDF** = seberapa langka kata tersebut di semua dokumen
+- **TF-IDF** = TF × IDF
+
+---
+
+## 3. Cosine Similarity
+
+Dokumen dan query diubah menjadi vektor, lalu dihitung tingkat kemiripannya.
+
+- Nilai `1.0` = sama persis
+- Nilai `0` = tidak memiliki kemiripan sama sekali
+
+---
 
 # Contoh Output
 
-*di terminal:*
+## Di Terminal
+
+```text
 QUERY :
 ['artificial', 'intelligence', 'systems', 'technology']
 
@@ -68,21 +102,25 @@ doc3.txt = 0.0257
 doc1.txt = 0.0256
 doc5.txt = 0.0218
 doc2.txt = 0.0
+```
 
-*response.txt:*
+## response.txt
 
+```text
 4
 doc4.txt 0.0325
 doc3.txt 0.0257
 doc1.txt 0.0256
 doc5.txt 0.0218
+```
 
+Baris pertama = jumlah dokumen yang relevan  
+Baris berikutnya = nama file beserta nilai kemiripannya.
 
-baris pertama = jumlah dokumen yang relevan, baris berikutnya = nama file dengan nilai kemiripannya.
-
+---
 
 # Catatan
 
-- file output (index.txt, weights.txt, response.txt) otomatis overwrite setiap kali program dijalankan
-- jika NLTK belum terdownload data didalamnya, program akan mendownload otomatis pada saat program pertama kali jalan
-- dokumen harus bebahasa inggris karena stopwords yang digunakan berbahasa inggris 
+- File output (`index.txt`, `weights.txt`, `response.txt`) otomatis overwrite setiap kali program dijalankan
+- Jika data NLTK belum terdownload, program akan mendownload otomatis saat pertama kali dijalankan
+- Dokumen harus berbahasa Inggris karena stopwords yang digunakan menggunakan bahasa Inggris
